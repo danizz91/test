@@ -1,4 +1,9 @@
 # Starter pipeline
+- task: NexPloitRerunScan@3
+  inputs:
+    apiToken: 'lni1xef.nexp.g0gdsgoeqcbmmr38ywcksx9pbjew2g62'
+    hostname: 'nexploit.app'
+    scanId: 'tJ7E1q7dpjiLGqMuSuodVM'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
